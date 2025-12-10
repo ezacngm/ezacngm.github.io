@@ -254,67 +254,18 @@
 
             </tbody>
           </table>
-
-        <!-- ===============================
-               SECTION TITLE: GLOBE DEMO
-          ================================ -->
-        <!-- Globe section -->
-        <!-- <table style="width:100%;border:0;border-spacing:0;margin:auto;">
-          <tbody>
-            <tr>
-              <td style="padding:16px;">
-                <h2 id="globe">Visitors</h2>
-                <div id="globe-container" style="width:10%;height:20px;"></div>
-                <p style="font-size:12px;color:#777;margin-top:4px;">
-                  A simple interactive globe demo (powered by <a href="https://globe.gl" target="_blank">globe.gl</a>).
-                </p>
-              </td>
-            </tr>
-          </tbody>
-        </table> -->
-
         </td>
       </tr>
     </tbody>
   </table>
 
-<p style="text-align:center;font-size:12px;color:#777;margin-top:16px;">
-  Last updated: 2025-12-10
-</p>
-  <!-- Scripts for rotating globe
-  <script src="https://unpkg.com/three@0.150.1/build/three.min.js"></script>
-  <script src="https://unpkg.com/globe.gl"></script>
-  <script>
-    window.addEventListener('DOMContentLoaded', function () {
-      const globeContainer = document.getElementById('globe-container');
-      if (!globeContainer) return;
 
-      const world = Globe()
-        (globeContainer)
-        .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
-        .bumpImageUrl('https://unpkg.com/three-globe/example/img/earth-topology.png')
-        .backgroundImageUrl('https://unpkg.com/three-globe/example/img/night-sky.png');
+<script type='text/javascript' id='clustrmaps'
+  src='//cdn.clustrmaps.com/map_v2.js?cl=b7b7b7&w=222&t=n&d=ajbt8y7bGElJJJe1proGqib5gQDu17pck5TWV8QUSLA&co=ffffff&cmo=3acc3a&cmn=ff5353&ct=808080'></script>
 
-      world.controls().autoRotate = true;
-      world.controls().autoRotateSpeed = 0.6;
-      world.pointOfView({ lat: 20, lng: 0, altitude: 2.5 });
-
-      const samplePoints = [
-        { lat: 22.3, lng: 114.2, size: 0.4 }, // Hong Kong
-        { lat: 53.5, lng: -2.2, size: 0.4 },  // Manchester
-        { lat: 30.6, lng: 114.3, size: 0.4 }, // Wuhan
-      ];
-
-      world
-        .pointsData(samplePoints)
-        .pointAltitude(d => d.size)
-        .pointColor(() => 'red')
-        .pointRadius(0.3);
-    });
-  </script> -->
-  </body>
-  
-  </html>
+  <p style="text-align:center;font-size:12px;color:#777;margin-top:16px;">
+    Last updated: 2025-12-10
+  </p>
 
 
 </body>
